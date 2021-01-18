@@ -230,7 +230,7 @@ body {
 }
 
 /* bottom portion ends*/
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1291px) {
   body {
     height: auto;
   }
