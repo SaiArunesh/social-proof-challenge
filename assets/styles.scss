@@ -18,7 +18,6 @@ body {
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	height: 100vh;
 }
 
 .container {
@@ -171,19 +170,18 @@ body {
 /* bottom portion ends*/
 
 @media screen and (max-width: 1291px) {
-	body{
-		height: auto;
-	}
+
 	.container {
 		background: url('../images/bg-pattern-top-mobile.svg'),
 			url('../images/bg-pattern-bottom-mobile.svg');
 		background-repeat: no-repeat;
 		background-position: top left, bottom right;
 		width: 100%;
-		height: 100%;
+		height: 100vh;
 		padding: 10px 10px;
 		display: flex;
 		flex-direction: column;
+		overflow: auto;
 	}
 	/* top portion */
 
@@ -255,6 +253,7 @@ body {
 
 	.review {
 		height: 250px;
+		width:350px;
 		background: $very-dark-magenta;
 		border-radius: 1rem;
 		margin-right: 0;
