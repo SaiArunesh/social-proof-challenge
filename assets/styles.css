@@ -235,7 +235,7 @@ body {
     background-repeat: no-repeat;
     background-position: top left, bottom right;
     width: 100%;
-    height: 100vh;
+    height: initial;
     padding: 10px 10px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -256,7 +256,7 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
     padding: 10px 0px 0px 0px;
-    height: 50vh;
+    height: initial;
   }
   /* call out */
   .call-out {
@@ -316,7 +316,7 @@ body {
   .bottom-container {
     margin: 0px auto;
     padding: 0px 10px;
-    height: 0;
+    height: initial;
   }
   .reviews {
     height: 50%;
