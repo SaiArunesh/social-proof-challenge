@@ -189,12 +189,14 @@ body {
 		display: flex;
 		flex-direction: column;
 		padding: 10px 0px 0px 0px;
+		height: 50vh;
 	}
 
 	/* call out */
 
 	.call-out {
 		padding:0px;
+		flex-basis:30%;
 	}
 
 	/* call out ends */
@@ -204,7 +206,7 @@ body {
 	.ratings {
 		padding:0px;
 		justify-content: center;	
-		height: fit-content;
+		height: 0;
 }
 
 	.rating {
@@ -241,9 +243,9 @@ body {
 	/* bottom portion */
 
 	.bottom-container {
-		margin:0 auto;
+		margin:0px auto;
 		padding:0px 10px;
-		height: 0;		
+		height: 0;
 	}
 
 	.reviews {

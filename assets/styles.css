@@ -256,10 +256,13 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
     padding: 10px 0px 0px 0px;
+    height: 50vh;
   }
   /* call out */
   .call-out {
     padding: 0px;
+    -ms-flex-preferred-size: 30%;
+        flex-basis: 30%;
   }
   /* call out ends */
   /* ratings */
@@ -268,9 +271,7 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
+    height: 0;
   }
   .rating {
     margin: 0px auto 10px auto;
@@ -313,7 +314,7 @@ body {
   /* top portion ends*/
   /* bottom portion */
   .bottom-container {
-    margin: 0 auto;
+    margin: 0px auto;
     padding: 0px 10px;
     height: 0;
   }
