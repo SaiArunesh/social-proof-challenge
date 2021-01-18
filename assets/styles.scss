@@ -19,13 +19,13 @@ body {
 	justify-content: center;
 	flex-direction: column;
 	height: 100vh;
-    
 }
 
 .container {
-    background:url('../images/bg-pattern-top-desktop.svg'),url('../images/bg-pattern-bottom-desktop.svg');
-    background-repeat: no-repeat;
-    background-position: top left,bottom right;
+	background: url('../images/bg-pattern-top-desktop.svg'),
+		url('../images/bg-pattern-bottom-desktop.svg');
+	background-repeat: no-repeat;
+	background-position: top left, bottom right;
 	max-width: 1440px;
 	height: 800px;
 	padding: 95px;
@@ -138,22 +138,22 @@ body {
 			flex-wrap: wrap;
 			justify-content: space-evenly;
 			h4 {
-                color: $white;
-                font-size: 0.9rem;
+				color: $white;
+				font-size: 0.9rem;
 			}
 			p {
-                color: $soft-pink;
-                font-size: 0.9rem;
+				color: $soft-pink;
+				font-size: 0.9rem;
 			}
 		}
 	}
 	.card-bottom {
 		height: 60%;
 		padding: 0px 30px 40px 20px;
-        color: white;
-        line-height: 25px;
-        font-size: 0.9rem;
-        letter-spacing: 0.6px;
+		color: white;
+		line-height: 25px;
+		font-size: 0.9rem;
+		letter-spacing: 0.6px;
 	}
 }
 
@@ -169,3 +169,96 @@ body {
 	align-self: flex-end;
 }
 /* bottom portion ends*/
+
+@media screen and (max-width: 1440px) {
+	body{
+		height: auto;
+	}
+	.container {
+		background: url('../images/bg-pattern-top-mobile.svg'),
+			url('../images/bg-pattern-bottom-mobile.svg');
+		background-repeat: no-repeat;
+		background-position: top left, bottom right;
+		width: 100%;
+		height: 100%;
+		padding: 10px 10px;
+		display: flex;
+		flex-direction: column;
+	}
+	/* top portion */
+
+	.top-container {
+		display: flex;
+		flex-direction: column;
+		padding: 10px 0px 0px 0px;
+	}
+
+	/* call out */
+
+	.call-out {
+		padding:0px;
+	}
+
+	/* call out ends */
+
+	/* ratings */
+
+	.ratings {
+		padding:0px;
+		justify-content: center;	
+		height: fit-content;
+}
+
+	.rating {
+		margin:0px auto 10px auto;
+		height: 60px;
+		max-width: 375px;
+		padding:10px;
+		border-radius: 1rem;
+		color: $very-dark-magenta;
+		font-weight: 700;
+		font-size: 0.75rem;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		.star {
+			padding:0;
+			flex-basis: 100%;
+		}
+	}
+	.rating-one {
+		align-self: flex-start;
+	}
+	.rating-two {
+		align-self: flex-start;
+	}
+
+	.rating-three {
+		align-self: flex-start;
+	}
+	/*ratings end */
+
+	/* top portion ends*/
+
+	/* bottom portion */
+
+	.bottom-container {
+		margin:0 auto;
+		padding:0px 10px;
+		height: 0;		
+	}
+
+	.reviews {
+		height: 50%;
+		flex-direction: column;
+	}
+
+	.review {
+		height: 250px;
+		background: $very-dark-magenta;
+		border-radius: 1rem;
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	/* bottom portion ends*/
+}
