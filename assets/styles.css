@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Spartan', sans-serif;
+  font-size: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  background-color: red;
+}
+
+.container {
+  background-color: white;
+  max-width: 1440px;
+  height: 800px;
+  padding: 95px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+/* top portion */
+.top-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  padding: 20px;
+  height: 50%;
+}
+
+/* call out */
+.call-out {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  padding-right: 10%;
+}
+
+.call-out h1 {
+  color: #502050;
+  font-size: 3rem;
+  letter-spacing: -2px;
+  padding: 5px;
+}
+
+.call-out p {
+  padding: 5px;
+  color: #502050;
+  line-height: 1.5rem;
+}
+
+/* call out ends */
+/* ratings */
+.ratings {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  padding-top: 18px;
+  padding-right: 3.4%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.rating {
+  height: 24.3%;
+  width: 80%;
+  border-radius: 1rem;
+  margin-bottom: 3.5%;
+  background-color: #f7f2f7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #502050;
+  font-weight: 700;
+}
+
+.rating .star {
+  padding-left: 7%;
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+}
+
+.rating-two {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.rating-three {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+/*ratings end */
+/* top portion ends*/
+/* bottom portion */
+.bottom-container {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  height: 50%;
+}
+
+/* bottom portion ends*/
+/*# sourceMappingURL=styles.css.map */
